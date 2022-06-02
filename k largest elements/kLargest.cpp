@@ -26,7 +26,7 @@ int main()
     if (k >= sizeof(num) / sizeof(int))
     {
         cout << "value cannot be greater than number of elements in array"
-             << "\n TERMINATING" << endl;
+             << "\n+++++++TERMINATING--------" << endl;
         exit(1);
     }
     else
