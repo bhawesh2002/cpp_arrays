@@ -9,7 +9,11 @@ int main()
     {
         for (int j = 0; i < sizeof(num) / sizeof(num[0]) - 1; i++)
         {
-            /* code */
+            if (num[j] < num[i])
+            {
+                cout << num[i] << "=>" << num[j];
+                break;
+            }
         }
     }
 
