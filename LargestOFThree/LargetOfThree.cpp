@@ -12,14 +12,18 @@ int main()
     }
     int largest[3] = {};
     int index = 0;
-    for (int i = 0; i < sizeof(num) / sizeof(int) - 1; i++)
+    for (int i = 0; i < sizeof(num) / sizeof(int); i++)
     {
-        for (int j = 1; j < sizeof(num) / sizeof(int); j++)
+        for (int j = 0; j < sizeof(num) / sizeof(int) - 1; j++)
         {
-            if (num[j] > num[j])
+            if (num[i] < num[j])
             {
-                swap(num[i], num[j]);
+                swap(num[j], num[i]);
             }
         }
+    }
+    for (int i = 0; i < sizeof(num) / sizeof(int); i++)
+    {
+        cout << num[i] << endl;
     }
 }
