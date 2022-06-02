@@ -29,6 +29,13 @@ int main()
              << "\n TERMINATING" << endl;
         exit(1);
     }
+    else
+    {
+        for (int i = 0; i < k; i++)
+        {
+            cout << num[i] << endl;
+        }
+    }
 
     return 0;
 }
