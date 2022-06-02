@@ -11,12 +11,6 @@ int main()
     {
         while (1)
         {
-
-            if (num[i] == num[sizeof(num) / sizeof(num[0]) - 1])
-            {
-                cout << num[i] << "=>" << -1 << endl;
-                break;
-            }
             if (num[j] > num[i])
             {
                 cout << num[i] << "=>" << num[j] << endl;
