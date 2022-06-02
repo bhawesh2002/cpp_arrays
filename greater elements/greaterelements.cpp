@@ -16,6 +16,7 @@ int main()
             }
         }
     }
+    cout << num[4] << "=>" <<  -1 << endl;
 
     return 0;
 }
