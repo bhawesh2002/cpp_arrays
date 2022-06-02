@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    int a, b;
-    cin >> a >> b;
-    if (a < b)
+    int num[5];
+    for (int i = 0; i < sizeof(num) / sizeof(int); i++)
     {
-        swap(a, b);
+        cout << "Enter the " << i + 1 << " number";
+        cin >> num[i];
     }
-    cout << "largest of two is " << a;
+
     return 0;
 }
