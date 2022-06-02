@@ -23,10 +23,12 @@ int main()
     cout << "How many largest numbers to display? => ";
     int k;
     cin >> k;
-    /*for (int i = 0; i < sizeof(num) / sizeof(int); i++)
+    if (k >= sizeof(num) / sizeof(int))
     {
-        cout << num[i] << endl;
-    }*/
+        cout << "value cannot be greater than number of elements in array"
+             << "\n TERMINATING" << endl;
+        exit(1);
+    }
 
     return 0;
 }
