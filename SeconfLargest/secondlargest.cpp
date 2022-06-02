@@ -14,9 +14,9 @@ int main()
     {
         for (int j = 0; j < sizeof(num) / sizeof(int) -1; j++)
         {
-            if (num[j] > num[i])
+            if (num[i] > num[j])
             {
-                swap(num[i], num[j]);
+                swap(num[j], num[i]);
             }
         }
     }
