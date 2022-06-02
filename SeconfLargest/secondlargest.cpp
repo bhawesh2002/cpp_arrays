@@ -12,7 +12,7 @@ int main()
     }
     for (int i = 0; i < sizeof(num) / sizeof(int); i++)
     {
-        for (int j = 0; j < sizeof(num) / sizeof(int) -1; j++)
+        for (int j = 0; j < sizeof(num) / sizeof(int) - 1; j++)
         {
             if (num[i] > num[j])
             {
@@ -20,10 +20,7 @@ int main()
             }
         }
     }
-    for (int i = 0; i < sizeof(num)/sizeof(int); i++)
-    {
-        cout <<  num[i] << endl;
-    }
-    
+    cout << "The second largest number is : " << num[1];
+
     return 0;
 }
