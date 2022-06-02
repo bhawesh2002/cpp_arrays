@@ -10,7 +10,7 @@ int main()
         cout << "Enter the " << i + 1 << " number:";
         cin >> num[i];
     }
-    /*for (int i = 0; i < sizeof(num) / sizeof(int); i++)
+    for (int i = 0; i < sizeof(num) / sizeof(int); i++)
     {
         for (int j = 1; j < sizeof(num) / sizeof(int) - 1; j++)
         {
@@ -19,6 +19,6 @@ int main()
                 swap(num[i], num[j]);
             }
         }
-    }*/
+    }
     return 0;
 }
