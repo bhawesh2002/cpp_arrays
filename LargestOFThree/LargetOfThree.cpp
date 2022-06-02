@@ -18,6 +18,7 @@ int main()
         {
             if (num[j] > num[j])
             {
+                swap(num[i], num[j]);
             }
         }
     }
