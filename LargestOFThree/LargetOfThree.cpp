@@ -22,6 +22,6 @@ int main()
     }
     for (int i = 0; i < sizeof(num)/sizeof(int); i++)
     {
-        cout << num[i];
+        cout << num[i]  << endl;
     }
 }
