@@ -22,5 +22,6 @@ int main()
             largest = num[i + 1];
         }
     }
+    cout << "Largest number is: " << largest;
     return 0;
 }
