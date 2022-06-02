@@ -20,7 +20,7 @@ int main()
             }
         }
     }
-    for (int i = 0; i < sizeof(num)/sizeof(int); i++)
+    for (int i = 0; i < 3; i++)
     {
         cout << num[i]  << endl;
     }
