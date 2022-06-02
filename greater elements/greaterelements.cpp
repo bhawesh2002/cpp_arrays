@@ -7,7 +7,7 @@ int main()
     int num[7] = {2, 7, 3, 5, 4, 6, 8};
     int counter = 0;
     int j = 0;
-    for (int i = 0; i < sizeof(num) / sizeof(num[0]) - 1; i++)
+    for (int i = 0; i < sizeof(num) / sizeof(num[0]); i++)
     {
         while (1)
         {
