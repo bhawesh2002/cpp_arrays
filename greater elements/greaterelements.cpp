@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int num[5] = {95, 645, 884, 331, 994};
+    int num[7] = {2, 7, 3, 5, 4, 6, 8};
     for (int i = 0; i < sizeof(num) / sizeof(num[0]); i++)
     {
         for (int j = 0; j < sizeof(num) / sizeof(num[0]); j++)
@@ -16,7 +16,6 @@ int main()
             }
         }
     }
-    cout << num[4] << "=>" <<  -1 << endl;
 
     return 0;
 }
