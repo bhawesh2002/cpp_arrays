@@ -10,4 +10,5 @@ int main()
         cout << "Enter the " << i + 1 << " number:";
         cin >> num[i];
     }
+    int largest[3] = {};
 }
