@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    int num[7] = {54,89,4566,655,54,394,4};
-   /* for (int i = 0; i < sizeof(num) / sizeof(int); i++)
-    {
-        cout << "Enter the " << i + 1 << " number:";
-        cin >> num[i];
-    }*/
+    int num[7] = {54, 89, 4566, 655, 54, 394, 4};
+    /* for (int i = 0; i < sizeof(num) / sizeof(int); i++)
+     {
+         cout << "Enter the " << i + 1 << " number:";
+         cin >> num[i];
+     }*/
     for (int i = 0; i < sizeof(num) / sizeof(int); i++)
     {
         for (int j = 0; j < sizeof(num) / sizeof(int) - 1; j++)
@@ -20,8 +20,9 @@ int main()
             }
         }
     }
+    cout << "The three largest numbers are:\n";
     for (int i = 0; i < 3; i++)
     {
-        cout << num[i]  << endl;
+        cout << num[i] << endl;
     }
 }
