@@ -16,6 +16,11 @@ int main()
             }
         }
     }
-    
+
+    for (int i = 0; i < a; i++)
+    {
+        cout << num[i] << endl;
+    }
+
     return 0;
 }
