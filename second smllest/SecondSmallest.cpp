@@ -10,9 +10,12 @@ int main()
     {
         for (int j = 0; j < a - 1; j++)
         {
-            /* code */
+            if (num[i] > num[j])
+            {
+                swap(num[i], num[j]);
+            }
         }
     }
-
+    
     return 0;
 }
