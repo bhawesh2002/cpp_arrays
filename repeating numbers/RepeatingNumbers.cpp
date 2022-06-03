@@ -9,19 +9,18 @@ int main()
     int a = sizeof(num) / sizeof(num[0]);
     for (int i = 0; i < a; i++)
     {
-        for (int j = 1; i < a; i++)
+        for (int j = 0; j < a; j++)
         {
             if (num[i] == num[j])
             {
                 counter++;
             }
         }
-        counter = 0;
-
         if (counter >= 1)
         {
-            cout << num[i] << "repeats " << counter << " times" << endl;
+            cout << num[i] << " repeats " << counter << " times" << endl;
         }
+        counter = 0;
     }
 
     return 0;
