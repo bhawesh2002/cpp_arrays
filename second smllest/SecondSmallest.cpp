@@ -8,7 +8,10 @@ int main()
     int a = sizeof(num) / sizeof(num[0]);
     for (int i = 0; i < a; i++)
     {
-        /* code */
+        for (int j = 0; j < a - 1; j++)
+        {
+            /* code */
+        }
     }
 
     return 0;
