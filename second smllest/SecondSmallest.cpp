@@ -16,8 +16,8 @@ int main()
             }
         }
     }
-
-    for (int i = 0; i < a; i++)
+    cout << "Two smaller numbers are:\n";
+    for (int i = 0; i < 2; i++)
     {
         cout << num[i] << endl;
     }
