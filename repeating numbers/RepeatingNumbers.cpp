@@ -9,7 +9,7 @@ int main()
     int a = sizeof(num) / sizeof(num[0]);
     for (int i = 0; i < a; i++)
     {
-        for (int j = 0; i < a; i++)
+        for (int j = 1; i < a; i++)
         {
             if (num[i] == num[j])
             {
