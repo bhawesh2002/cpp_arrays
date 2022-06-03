@@ -18,6 +18,10 @@ int main()
             }
         }
         cout << num[i] << "=>" << largest << endl;
+        if (num[i] == largest)
+        {
+            cout << num[i] << "=>" << -1 << endl;
+        }
     }
 
     return 0;
