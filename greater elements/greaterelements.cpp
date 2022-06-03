@@ -16,6 +16,11 @@ int main()
                 cout << num[i] << "=>" << num[j] << endl;
                 break;
             }
+            else
+            {
+                cout << num[i] << "=>" << -1 << endl;
+                break;
+            }
         }
     }
 
