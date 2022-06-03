@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int num[7] = {1, 2, 3, 4, 5, 6, 7};
+    int num[7] = {56,84,65,23,84,31,64};
     int largest = -1;
     int a = sizeof(num) / sizeof(num[0]);
     for (int i = 0; i < a; i++)
