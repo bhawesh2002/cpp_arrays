@@ -16,6 +16,7 @@ int main()
                 counter++;
             }
         }
+        counter = 0;
     }
 
     return 0;
