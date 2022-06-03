@@ -17,6 +17,11 @@ int main()
             }
         }
         counter = 0;
+
+        if (counter >= 1)
+        {
+            cout << num[i] << "repeats " << counter << " times" << endl;
+        }
     }
 
     return 0;
