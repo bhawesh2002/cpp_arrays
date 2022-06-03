@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int num[7] = {1,2,3,4,5,6,7};
+    int num[7] = {1, 2, 3, 4, 5, 6, 7};
     int largest = -1;
     int a = sizeof(num) / sizeof(num[0]);
     for (int i = 0; i < a; i++)
@@ -17,10 +17,14 @@ int main()
                 break;
             }
         }
-        cout << num[i] << "=>" << largest << endl;
+
         if (num[i] == largest)
         {
             cout << num[i] << "=>" << -1 << endl;
+        }
+        else
+        {
+            cout << num[i] << "=>" << largest << endl;
         }
     }
 
