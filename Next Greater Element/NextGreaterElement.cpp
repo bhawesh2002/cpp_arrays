@@ -4,17 +4,20 @@ using namespace std;
 
 int main()
 {
-    int num[5] = {5, 6545, 1, 54, 45};
+    int num[5] = {7, 6, 5, 4, 3};
     int a = sizeof(num) / sizeof(num[0]);
-    for (int i = 0; i < a - 1; i++)
+    for (int i = 0; i < a; i++)
     {
-        if (num[i] < num[i + 1])
+        for (int j = i; j < i + 1; j++)
         {
-            cout << num[i] << "=>" << num[i + 1] << endl;
-        }
-        else
-        {
-            cout << num[i] << " has no greater element adjcent to it" << endl;
+            if (num[i] < num[j])
+            {
+                cout << num[i] << "=>" << num[j] << endl;
+            }
+            else
+            {
+                cout << num[i] << " has no greater element adjcent to it" << endl;
+            }
         }
     }
 
