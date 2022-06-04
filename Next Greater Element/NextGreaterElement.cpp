@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int num[5] = {3, 4, 5, 6, 7};
+    int num[5] = {7,6,5,4,3};
     int a = sizeof(num) / sizeof(num[0]);
     for (int i = 0; i < a; i++)
     {
