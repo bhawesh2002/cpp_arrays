@@ -12,11 +12,18 @@ int main()
     int a = sizeof(num) / sizeof(int);
     for (int i = 0; i < a; i++)
     {
-        for (int j = 0; j < a - 1; j++)
+        for (int j = i; j < a - 1; j++)
         {
-            /* code */
+            if (num[i] <= num[j])
+            {
+                swap(num[i], num[j]);
+                break;
+            }
+            else
+            {
+                break;
+            }
         }
     }
-
     return 0;
 }
