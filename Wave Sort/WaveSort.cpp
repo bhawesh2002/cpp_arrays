@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    int num[] = {43, 6, 32, 64, 54, 13};
+    int num[] = {65,64,6,94,6,94,3,694};
     int i = 0;
     int a = sizeof(num) / sizeof(int);
     for (int i = 0; i < a; i++)
@@ -25,5 +25,10 @@ int main()
             }
         }
     }
+    for (int i = 0; i < a; i++)
+    {
+        cout << num[i] << endl;
+    }
+
     return 0;
 }
