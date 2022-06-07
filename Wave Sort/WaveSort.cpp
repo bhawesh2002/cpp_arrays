@@ -9,15 +9,7 @@ int main()
 {
     int num[] = {43, 6, 32, 64, 54, 13};
     int i = 0;
-    while (1)
-    {
-        for (int j = 0; j < i + 1; j++)
-        {
-            if (num[i])
-            {
-            }
-        }
-    }
+    int a = sizeof(num)/sizeof(int);    
 
     return 0;
 }
