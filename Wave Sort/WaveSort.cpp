@@ -10,6 +10,10 @@ int main()
     int num[] = {43, 6, 32, 64, 54, 13};
     int i = 0;
     int a = sizeof(num)/sizeof(int);    
-
+    for (int i = 0; i < a; i++)
+    {
+        /* code */
+    }
+    
     return 0;
 }
