@@ -15,7 +15,6 @@ int main()
         {
             if (num[i])
             {
-                /* code */
             }
         }
     }
