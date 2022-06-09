@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int sorted[] = {0, 1, 2, 3, 5, 6, 7, 8, 9};
+    int sorted[] = {0, 1, 2, 3, 5, 6, 8, 9};
     int a = sizeof(sorted) / sizeof(int);
     for (int i = 0; i < a; i++)
     {
