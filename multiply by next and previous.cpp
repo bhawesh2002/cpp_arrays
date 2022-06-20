@@ -22,5 +22,8 @@ int main(){
             num[i] = num[i-1] * num[i+ 1];
         }
     }
+    for(int i = 0; i < size;i++){
+        cout << num[i] << endl;
+    }
     return 0;
 }
