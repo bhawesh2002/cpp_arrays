@@ -7,5 +7,6 @@ using namespace std;
 
 int main(){
     int num[] = {2,34,56,76,76,90}
+    int prev = 1,next = 1;
     return 0;
 }
