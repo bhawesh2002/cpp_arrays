@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
-    num[] = {23,43,53,65,23,54} 
+    num[] = {23,43,53,65,23,54}
+    int size = sizeof(num)/sizeof(num[0]);
     return 0;
 }
