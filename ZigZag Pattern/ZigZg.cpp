@@ -5,6 +5,8 @@ Note: The format zig-zag array in form a < b > c < d > e < f.*/
 
 using namespace std;
 
-int main(){
+int main()
+{
+    num[] = {23,43,53,65,23,54} 
     return 0;
 }
